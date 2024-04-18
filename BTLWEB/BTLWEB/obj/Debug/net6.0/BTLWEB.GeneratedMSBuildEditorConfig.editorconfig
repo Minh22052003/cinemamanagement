@@ -1,0 +1,155 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BTLWEB
+build_property.RootNamespace = BTLWEB
+build_property.ProjectDir = D:\PhamHongMinh\BTLWEB_Nhom12\BTLWEB\BTLWEB\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\PhamHongMinh\BTLWEB_Nhom12\BTLWEB\BTLWEB
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Account/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Account/ProfileUse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcm9maWxlVXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Home/CinemaRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaW5lbWFSb29tLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Home/DatPhim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXRQaGltLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Home/News.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Phim/CreatePhim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhpbVxDcmVhdGVQaGltLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Phim/DeletePhim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhpbVxEZWxldGVQaGltLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Phim/EditPhim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhpbVxFZGl0UGhpbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Phim/QlPhim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhpbVxRbFBoaW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Phim/ViewHead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhpbVxWaWV3SGVhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/RapPhim/CreateRapPhim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFwUGhpbVxDcmVhdGVSYXBQaGltLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/RapPhim/DeleteRapPhim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFwUGhpbVxEZWxldGVSYXBQaGltLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/RapPhim/EditRapPhim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFwUGhpbVxFZGl0UmFwUGhpbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/RapPhim/QlRap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFwUGhpbVxRbFJhcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Shared/Components/LoaiPhim/RenderLoaiPhim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9haVBoaW1cUmVuZGVyTG9haVBoaW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Shared/Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEZvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Shared/TopNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFRvcE5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Shared/_Layout1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Shared/_Layout2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/TaiKhoan/DeleteTaiKhoan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpS2hvYW5cRGVsZXRlVGFpS2hvYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/TaiKhoan/EditTaiKhoan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpS2hvYW5cRWRpdFRhaUtob2FuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/TaiKhoan/QlTK.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpS2hvYW5cUWxUSy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Ve/CreateVe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVcQ3JlYXRlVmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Ve/DeleteVe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVcRGVsZXRlVmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Ve/QlVe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVcUWxWZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PhamHongMinh/BTLWEB_Nhom12/BTLWEB/BTLWEB/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zfk1cq68n2

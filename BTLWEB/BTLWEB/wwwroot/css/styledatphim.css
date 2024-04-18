@@ -1,0 +1,36 @@
+﻿.phim-image img {
+    width: 150px;
+}
+
+.button1 {
+    padding-top: 20px;
+    padding-left: 32px;
+}
+
+.phim-container {
+    position: relative;
+    padding-top: 50px;
+}
+
+.content {
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    background-color: white;
+}
+
+.item1 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    max-width: 221.35px;
+}
+
+.phim-info {
+    margin-left: 25px;
+    color: beige;
+    max-width: 500px;
+}

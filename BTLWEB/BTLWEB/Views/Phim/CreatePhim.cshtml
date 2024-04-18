@@ -1,0 +1,78 @@
+﻿@model BTLWEB.Models.Phim
+
+@{
+    ViewData["Title"] = "CreatePhim";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+<div class="card" style="padding-left: 310px; padding-right: 20px; padding-top: 20px">
+    <div class="row">
+        <div class="col-2">
+            <h1>Create</h1>
+        </div>
+        <div class="col-10">
+        </div>
+    </div>
+    <form asp-action="CreatePhim" method="post">
+        <div class="form-group row">
+            <label class="col-2">Tên Phim</label>
+            <input asp-for="TenPhim" class="form-control col-10" />
+            <span asp-validation-for="TenPhim" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label class="col-2">Ảnh Phim</label>
+            <input asp-for="AnhPhim" class="form-control col-10" />
+            <span asp-validation-for="AnhPhim" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label class="col-2">Mô Tả</label>
+            <input asp-for="MoTa" class="form-control col-10" />
+            <span asp-validation-for="MoTa" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label class="col-2">Loại Phim</label>
+            <select asp-for="IdLoaiPhim" asp-items="@ViewBag.LoaiPhim" class="form-control col-10"></select>
+            <span asp-validation-for="IdLoaiPhim" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label class="col-2">Thời Lượng</label>
+            <input asp-for="ThoiLuong" class="form-control col-10" />
+            <span asp-validation-for="ThoiLuong" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label class="col-2">Ngày Công Chiếu</label>
+            <input asp-for="NgayCongChieu" type="date" class="form-control col-10" />
+            <span asp-validation-for="NgayCongChieu" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label class="col-2">Ngày Kết Thúc</label>
+            <input asp-for="NgayKetThuc" type="date" class="form-control col-10" />
+            <span asp-validation-for="NgayKetThuc" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label class="col-2">Diễn Viên</label>
+            <input asp-for="DienVien" class="form-control col-10" />
+            <span asp-validation-for="DienVien" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label class="col-2">Đạo Diễn</label>
+            <input asp-for="DaoDien" class="form-control col-10" />
+            <span asp-validation-for="DaoDien" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label class="col-2">Tình Trạng</label>
+            <input asp-for="TinhTrang" type="checkbox" class="form-check-input col-10" />
+            <span asp-validation-for="TinhTrang" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label class="col-2">Năm Phát Hành</label>
+            <input asp-for="NamPhatHanh" class="form-control col-10" />
+            <span asp-validation-for="NamPhatHanh" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label class="col-2">Chất Lượng</label>
+            <input asp-for="ChatLuong" class="form-control col-10" />
+            <span asp-validation-for="ChatLuong" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+</div>

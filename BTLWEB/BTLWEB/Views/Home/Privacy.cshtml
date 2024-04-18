@@ -1,0 +1,51 @@
+﻿@model IEnumerable<BTLWEB.Models.Phim>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/stylephim.css" />
+</head>
+<body>
+    <div class="loc">
+        <label for="genreSelect" style="color : White">Chọn loại phim:</label>
+        <select id="genreSelect" name="genreSelect">
+            <option value="">Tất cả</option>
+            @foreach (var loaiPhim in ViewBag.LoaiPhims)
+            {
+                <option value="@loaiPhim.Id">@loaiPhim.TenLoai</option>
+            }
+        </select>
+        <button id="filterButton">Lọc</button>
+    </div>
+
+    <script>
+        document.getElementById("filterButton").addEventListener("click", function () {
+            var selectedMid = document.getElementById("genreSelect").value;
+            window.location.href = "/Home/Privacy?mid=" + selectedMid;
+        });
+    </script>
+
+    <h2 class="title_DanhSachPhim">Danh sách phim</h2>
+    <table>
+        <tr>
+        </tr>
+        <div class="phim-container">
+            @foreach (var phim in Model)
+            {
+                <a asp-area="" asp-controller="Home" asp-action="DatPhim" asp-route-TenPhim="@phim.TenPhim" asp-route-AnhPhim="@phim.AnhPhim" asp-route-MoTa="@phim.MoTa" asp-route-DaoDien="@phim.DaoDien" asp-route-DienVien="@phim.DienVien">
+                    <div class="phim-item">
+                        <div class="phim-image">
+                            <img src="~/images/Image/@phim.AnhPhim" alt="">
+                        </div>
+                        <div class="phim-info">
+                            <div>@phim.TenPhim</div>
+                        </div>
+                    </div>
+                </a>
+            }
+        </div>
+    </table>
+</body>
+</html>

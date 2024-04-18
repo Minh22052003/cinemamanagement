@@ -1,0 +1,54 @@
+﻿@model BTLWEB.Models.Ve
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .row{
+        margin-top:5px;
+    }
+</style>
+<div class="card" style="height: 90vh; padding-top: 50px; border:hidden">
+    <div class="row">
+        <h1>Đặt vé xem phim</h1>
+    </div>
+    <form asp-controller="Ve" asp-action="CreateVe" method="post">
+        <div class="form-group row">
+            <div class="col-2"><label>Tên đăng nhập</label></div>
+            <div class="col-3">
+                <input class="form-control" readonly="readonly" value="@ViewBag.TaiKhoan" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2"><label>Rạp Phim</label></div>
+            <div class="col-3">
+                <select asp-for="IdRap" asp-items="@ViewBag.RapPhim" class="form-control"></select>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2"><label>Lịch Chiếu</label></div>
+            <div class="col-3">
+                <select asp-for="Id_LichChieu" asp-items="@ViewBag.LichChieu" class="form-control"></select>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2"><label>Loại Ghế</label></div>
+            <div class="col-3">
+                <select asp-for="GiaVe" asp-items="@ViewBag.TenGhe" class="form-control"></select>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2"><label for="Soluong">Số Lượng</label></div>
+            <div class="col-3">
+                <input asp-for="Soluong" class="form-control" />
+            </div>
+            
+        </div>
+        <div class="row" style="margin-top: 20px">
+            <div class="col-2"></div>
+            <div class="col"><button type="submit" class="btn btn-primary">Đặt Vé</button></div>
+        </div>
+        
+    </form>
+</div>
+

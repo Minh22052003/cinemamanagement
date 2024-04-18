@@ -1,0 +1,129 @@
+﻿.quixnav {
+    width: 17.1875rem;
+    padding-bottom: 112px;
+    height: 100%;
+    position: absolute;
+    top: 5rem;
+    padding-top: 0;
+    z-index: 2;
+    background-color: #343957;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: all .2s ease;
+}
+
+    .quixnav .quixnav-scroll {
+        position: relative;
+        height: 100%;
+    }
+
+@media only screen and (min-width: 1200px) and (max-width: 1350px) {
+    .quixnav {
+        width: 14.375rem;
+    }
+}
+
+.quixnav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.quixnav .metismenu {
+    display: flex;
+    flex-direction: column;
+}
+
+    .quixnav .metismenu.fixed {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        left: 0;
+    }
+
+    .quixnav .metismenu > li {
+        display: flex;
+        flex-direction: column;
+    }
+
+        .quixnav .metismenu > li a > i {
+            font-size: 1.125rem;
+            display: inline-block;
+            vertical-align: middle;
+            padding: 0 0.4375rem;
+            font-weight: 700;
+            position: relative;
+            top: -2px;
+        }
+
+        .quixnav .metismenu > li > a {
+            color: #bdbdc7;
+        }
+
+        .quixnav .metismenu > li:hover > a, .quixnav .metismenu > li:focus > a, .quixnav .metismenu > li.mm-active > a {
+            background-color: #6b51df;
+            color: #fff;
+        }
+
+        .quixnav .metismenu > li.mm-active ul {
+            background-color: rgba(88, 115, 254, 0.04);
+        }
+
+            .quixnav .metismenu > li.mm-active ul ul {
+                background-color: rgba(88, 115, 254, 0.04);
+            }
+
+    .quixnav .metismenu li {
+        position: relative;
+    }
+
+    .quixnav .metismenu ul {
+        background-color: #1c0f54;
+        transition: all .2s ease-in-out;
+    }
+
+        .quixnav .metismenu ul a {
+            padding-left: 54px;
+            font-weight: 300;
+        }
+
+            .quixnav .metismenu ul a:hover, .quixnav .metismenu ul a:focus, .quixnav .metismenu ul a.mm-active {
+                text-decoration: none;
+                color: #fff;
+            }
+
+[direction="rtl"] .quixnav .metismenu ul a {
+    padding-right: 54px;
+}
+
+.quixnav .metismenu ul ul a {
+    padding-left: 74px;
+}
+
+.quixnav .metismenu ul ul ul a {
+    padding-left: 94px;
+}
+
+.quixnav .metismenu a {
+    position: relative;
+    display: block;
+    padding: 0.8125rem 1.25rem;
+    outline-width: 0;
+    color: #bdbdc7;
+    text-decoration: none;
+}
+
+.quixnav .metismenu .has-arrow:after {
+    width: .35rem;
+    height: .35rem;
+    right: 1.5625rem;
+    top: 48%;
+    border-color: inherit;
+    -webkit-transform: rotate(-225deg) translateY(-50%);
+    transform: rotate(-225deg) translateY(-50%);
+}
+
+.quixnav .metismenu .has-arrow[aria-expanded=true]:after,
+.quixnav .metismenu .mm-active > .has-arrow:after {
+    -webkit-transform: rotate(-135deg) translateY(-50%);
+    transform: rotate(-135deg) translateY(-50%);
+}

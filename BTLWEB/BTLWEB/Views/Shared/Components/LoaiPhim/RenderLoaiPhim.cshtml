@@ -1,0 +1,10 @@
+﻿@model IEnumerable<LoaiPhim>
+<ul class="nav">
+    @foreach (var m in Model)
+    {
+        <li class="nav-item">
+            <a asp-controller="Phim" asp-action="QlPhim"
+            asp-route-mid="@m.Id" class="nav-link">@m.TenLoai</a>
+        </li>
+    }
+</ul>

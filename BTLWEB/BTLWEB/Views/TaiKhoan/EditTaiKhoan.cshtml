@@ -1,0 +1,48 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+@model BTLWEB.Models.TaiKhoan
+
+<div class="card" style="padding-left: 310px; padding-right: 20px; padding-top: 20px">
+
+    <div class="row">
+        <div class="col-2">
+            <h1>Edit</h1>
+            <div asp-validation-summary="All" class="text-danger"></div>
+        </div>
+        <div class="col-10">
+        </div>
+    </div>
+
+    <form asp-action="EditTaiKhoan">
+        <div class="form-group">
+            <label asp-for="Id" class="control-label"></label>
+            <input asp-for="Id" class="form-control" readonly />
+        </div>
+        <div class="form-group">
+            <label asp-for="TenDangNhap" class="control-label"></label>
+            <input asp-for="TenDangNhap" class="form-control" readonly />
+        </div>
+        <div class="form-group">
+            <label asp-for="MatKhau" class="control-label"></label>
+            <input asp-for="MatKhau" class="form-control" readonly />
+        </div>
+        <div class="form-group">
+            <label asp-for="NgayDangKy" class="control-label"></label>
+            <input asp-for="NgayDangKy" class="form-control" readonly />
+        </div>
+        <label asp-for="TinhTrang" class="control-label"></label>
+        <div class="form-check">
+            <input asp-for="TinhTrang" class="form-check-input" />
+            <label class="form-check-label" asp-for="TinhTrang"></label>
+        </div>
+        <div class="form-group">
+            <label asp-for="PhanQuyen" class="control-label"></label>
+            <input asp-for="PhanQuyen" class="form-control" readonly />
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-primary" />
+            <a asp-action="QlTK" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>

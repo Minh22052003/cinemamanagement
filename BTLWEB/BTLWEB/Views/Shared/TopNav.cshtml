@@ -1,0 +1,46 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+        <img src="~/images/logo.jpg" alt="Logo" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Phim</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-controller="Home" asp-action="CinemaRoom">Phòng chiếu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-controller="Home" asp-action="News">Tin tức</a>
+            </li>
+        </ul>
+        @if (Context.User.Identity.IsAuthenticated)
+        {
+            @if (Context.User.IsInRole("MANAGA"))
+            {
+                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Profile">Quản trị web</a>
+            }
+            else
+            {
+                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="ProfileUse">Me</a>
+            }
+
+            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Logout">Đăng Xuất</a>
+        }
+        else
+        {
+            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Đăng nhập</a>
+        }
+    </div>
+</nav>

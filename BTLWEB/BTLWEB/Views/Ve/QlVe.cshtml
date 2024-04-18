@@ -1,0 +1,60 @@
+﻿@model IEnumerable<BTLWEB.Models.Ve>
+@{
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Danh sách vé</title>
+    <!-- Thêm các tệp CSS và JavaScript cần thiết -->
+    <style>
+        body {
+            margin-left: 280px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Danh sách vé</h2>
+    <div class="card" style="margin: 30px; color :black">
+        <div class="row" style="margin-top: 15px; margin-bottom:15px">
+            <div class="col">ID</div>
+            <div class="col">Ngày Đặt</div>
+            <div class="col">Giá Vé</div>
+            <div class="col">Số Lượng</div>
+            <div class="col">Ghế</div>
+            <div class="col">Lịch Chiếu</div>
+            <div class="col">Rạp Phim</div>
+            <div class="col">Chức Năng</div>
+        </div>
+        @foreach (var ve in Model)
+        {
+            <div class="row" style="padding: 5px">
+                <div class="col">@ve.Id</div>
+                <div class="col">@ve.NgayDat</div>
+                <div class="col">@ve.GiaVe</div>
+                <div class="col">@ve.Soluong</div>
+                <div class="col">
+                    @foreach (var ghe in ve.Ghes)
+                    {
+                        @ghe.TenGhe
+                        if (ghe.Loai_id == 1)
+                        {
+                            <span>Vip</span>
+                        }
+                        else if (ghe.Loai_id == 2)
+                        {
+                            <span>Thường</span>
+                        }
+                    }
+                </div>
+                <div class="col">@ve.LichChieus.NgayChieu</div>
+                <div class="col">@ve.RapPhims.TenRapChieu</div>
+                <div class="col">
+                    <a asp-action="DeleteVe" asp-route-id="@ve.Id">Delete</a>
+                </div>
+            </div>
+        }
+    </div>
+
+</body>
+</html>

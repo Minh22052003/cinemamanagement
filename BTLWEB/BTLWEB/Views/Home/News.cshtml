@@ -1,0 +1,197 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Slider</title>
+    <!--- CSS -->
+    <link rel="stylesheet" href="~/css/news.css">
+    <!--- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <div>
+        <h1 style="font-size: 40px; font-family: Inter; font-weight: 700; text-align: center; padding: 15px">
+            Tin tức
+        </h1>
+    </div>
+    <div class="wapper">
+        <div class="slide-container">
+            <div class="slide-content swiper mySwiper">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay">
+
+                            </span>
+                            <div class="card-image">
+                                <img src="~/images/New_Images/1.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">25/09/2023</h2>
+                            <p class="description">
+                                Xem NGƯỜI DƠI BẮT ĐẦU chỉ với 79k !!!!
+                            </p>
+                            <button class="button">See More</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay">
+
+                            </span>
+                            <div class="card-image">
+                                <img src="~/images/New_Images/2.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">24/04/2023</h2>
+                            <p class="description">
+                                MUA VÉ NHANH HƠN BAO GIỜ HẾT VỚI APP NCC
+                            </p>
+                            <button class="button">See More</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay">
+
+                            </span>
+                            <div class="card-image">
+                                <img src="~/images/New_Images/3.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">18/04/2023</h2>
+                            <p class="description">
+                                Nhập mã VNPAYNCC ngay từ ngày hôm nay để được giảm giá 10% nha!
+                            </p>
+                            <button class="button">See More</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay">
+
+                            </span>
+                            <div class="card-image">
+                                <img src="~/images/New_Images/4.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">17/12/2019</h2>
+                            <p class="description">
+                                "CHỊ CHỊ EM EM" tiếp tục mở SUẤT CHIẾU ĐẶC BIỆT ngày 18/12 & 19/12
+                            </p>
+                            <button class="button">See More</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay">
+
+                            </span>
+                            <div class="card-image">
+                                <img src="~/images/New_Images/5.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">10/12/2019</h2>
+                            <p class="description">
+                                Khởi chiếu sớm bộ phim tâm lý “MẮT BIẾC”
+                            </p>
+                            <button class="button">See More</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay">
+
+                            </span>
+                            <div class="card-image">
+                                <img src="~/images/New_Images/6.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">07/12/2019</h2>
+                            <p class="description">
+                                Tuần phim Nga tại Việt Nam (Từ 09/12/2019 đến 13/12/2019)
+                            </p>
+                            <button class="button">See More</button>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay">
+
+                            </span>
+                            <div class="card-image">
+                                <img src="~/images/New_Images/7.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">28/11/2019</h2>
+                            <p class="description">
+                                SUẤT CHIẾU SỚM PHIM “ANH TRAI YÊU QUÁI”
+                            </p>
+                            <button class="button">See More</button>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </div>
+    <!--- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 25,
+            loop: true,
+            centerSlide: 'true',
+            fade: 'true',
+            grabCursor: 'true',
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                dynamicBullets: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                520: {
+                    slidesPerView: 2,
+                },
+                950: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
+</body>
+</html>

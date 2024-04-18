@@ -1,0 +1,31 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model Phim
+
+<div class="card" style="height: 90vh; padding-top: 50px; border:hidden">
+    <div class="row">
+        <div class="col-3">
+            <div class="row"><img src="~/images/Image/@Model.AnhPhim" alt=""></div>
+            <div class="row"><h1></h1></div>
+            <div class="row"><a class="btn btn-outline-primary" asp-controller="Ve" asp-action="CreateVe">Đặt vé</a></div>
+        </div>
+        <div class="col-8" style="margin:10px; padding-top: 40px">
+            <div class="text-body" style="font-weight:bold; text-transform:uppercase">
+                <p>@Model.TenPhim</p>
+            </div>
+            <div class="text-body">
+                <p>Mô tả: @Model.MoTa</p>
+                
+            </div>
+            <div class="text-body">
+                <p>Đạo diễn: @Model.DaoDien</p>
+                
+            </div>
+            <div class="text-body">
+                <p>Diễn viên: @Model.DienVien</p>
+                
+            </div>
+        </div>
+    </div>
+</div>

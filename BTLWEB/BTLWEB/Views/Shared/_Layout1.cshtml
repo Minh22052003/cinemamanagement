@@ -1,0 +1,159 @@
+﻿
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Quản lý Rạp Chiếu Phim </title>
+    <link href="~/css/style.css" rel="stylesheet">
+    <style>
+        .sb-sidenav-dark {
+            position: fixed;
+            left: 0; /* Chuyển sb-sidenav-dark vào bên trái */
+            height: 100vh; /* Đặt chiều cao của sb-sidenav-dark bằng chiều cao của viewport */
+            color: rgba(255, 255, 255, 0.5);
+            top: 0;
+        }
+
+            .sb-sidenav-dark .sb-sidenav-menu .sb-sidenav-menu-heading {
+                color: rgba(255, 255, 255, 0.25);
+            }
+
+            .sb-sidenav-dark .sb-sidenav-menu .nav-link {
+                color: rgba(255, 255, 255, 0.5);
+            }
+
+                .sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-nav-link-icon {
+                    color: rgba(255, 255, 255, 0.25);
+                }
+
+                .sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-sidenav-collapse-arrow {
+                    color: rgba(255, 255, 255, 0.25);
+                }
+
+                .sb-sidenav-dark .sb-sidenav-menu .nav-link:hover {
+                    color: #fff;
+                }
+
+                .sb-sidenav-dark .sb-sidenav-menu .nav-link.active {
+                    color: #fff;
+                }
+
+                    .sb-sidenav-dark .sb-sidenav-menu .nav-link.active .sb-nav-link-icon {
+                        color: #fff;
+                    }
+
+            .sb-sidenav-dark .sb-sidenav-footer {
+                background-color: #343a40;
+            }
+
+        .container {
+            margin-top: 20px;
+            color: #fff;
+        }
+
+        .nl {
+            list-style-type: none;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .menu ul {
+            padding: 0;
+            list-style: none;
+        }
+
+            .menu ul li {
+                padding: 10px 0;
+            }
+
+                .menu ul li a {
+                    text-decoration: none;
+                    color: rgba(255, 255, 255, 0.5);
+                }
+
+                    .menu ul li a:hover {
+                        color: #fff;
+                    }
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <div class="quixnav sb-sidenav-dark">
+            <div class="quixnav-scroll">
+                <div class="nav-header" style="left: 0; top: 0">
+                    <a class="brand-logo" asp-area="" asp-controller="Home" asp-action="Index">
+                        <img class="logo-abbr" src="~/images/logo.jpg" alt="">
+                        <img class="logo-compact" src="~/images/logo_text.png" alt="">
+                    </a>
+                </div>
+                <ul class="metismenu" id="menu">
+                    <li class="nav-label first">Main Menu</li>
+                    <li class="nav-label">Quản lý hệ thống</li>
+                    <li>
+                        <a class="has-arrow" aria-expanded="false" href="#" onclick="toggleSubMenu(event, 'rapchieuphim')">
+                            <span class="nav-text">Rạp Chiếu Phim</span>
+                        </a>
+                        <ul id="rapchieuphim" class="submenu" aria-expanded="false" style="display: none;">
+                            <li><a href="/RapPhim/QlRap">Quản lý Phòng chiếu phim</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="has-arrow" aria-expanded="false" href="#" onclick="toggleSubMenu(event, 'phim')">
+                            <span class="nav-text">
+                                Phim
+                            </span>
+                        </a>
+                        <ul id="phim" class="submenu" aria-expanded="false" style="display: none;">
+                            <li><a href="/Phim/QlPhim">Quản lý phim</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-label">Quản lý thông tin</li>
+                    <li>
+                        <a class="has-arrow" aria-expanded="false" href="#" onclick="toggleSubMenu(event, 'thongtin')">
+                            <span class="nav-text">
+                                Quản lí tài khoản
+                            </span>
+                        </a>
+                        <ul id="thongtin" class="submenu" aria-expanded="false" style="display: none;">
+                            <li><a href="/TaiKhoan/QlTK">Khách hàng</a></li>
+                        </ul>
+                    </li>
+
+
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    @RenderBody()
+    <script>
+        function toggleSubMenu(event, id) {
+            var subMenu = document.getElementById(id);
+            var isVisible = subMenu.style.display === 'block';
+            var allSubMenus = document.getElementsByClassName('submenu');
+            for (var i = 0; i < allSubMenus.length; i++) {
+                allSubMenus[i].style.display = 'none';
+            }
+            if (!isVisible) {
+                subMenu.style.display = 'block';
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
+

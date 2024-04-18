@@ -1,0 +1,237 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|d:\\phamhongminh\\btlweb_nhom12\\btlweb\\btlweb\\views\\ve\\qlve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|solutionrelative:btlweb\\views\\ve\\qlve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|d:\\phamhongminh\\btlweb_nhom12\\btlweb\\btlweb\\controllers\\phimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|solutionrelative:btlweb\\controllers\\phimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|d:\\phamhongminh\\btlweb_nhom12\\btlweb\\btlweb\\models\\ve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|solutionrelative:btlweb\\models\\ve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|d:\\phamhongminh\\btlweb_nhom12\\btlweb\\btlweb\\models\\ghe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|solutionrelative:btlweb\\models\\ghe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|d:\\phamhongminh\\btlweb_nhom12\\btlweb\\btlweb\\models\\phim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|solutionrelative:btlweb\\models\\phim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|d:\\phamhongminh\\btlweb_nhom12\\btlweb\\btlweb\\models\\binhluan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|solutionrelative:btlweb\\models\\binhluan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|d:\\phamhongminh\\btlweb_nhom12\\btlweb\\btlweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|solutionrelative:btlweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|d:\\phamhongminh\\btlweb_nhom12\\btlweb\\btlweb\\controllers\\vecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|solutionrelative:btlweb\\controllers\\vecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|d:\\phamhongminh\\btlweb_nhom12\\btlweb\\btlweb\\views\\phim\\viewhead.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|solutionrelative:btlweb\\views\\phim\\viewhead.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|d:\\phamhongminh\\btlweb_nhom12\\btlweb\\btlweb\\views\\ve\\createve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|solutionrelative:btlweb\\views\\ve\\createve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|d:\\phamhongminh\\btlweb_nhom12\\btlweb\\btlweb\\views\\phim\\qlphim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|solutionrelative:btlweb\\views\\phim\\qlphim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|d:\\phamhongminh\\btlweb_nhom12\\btlweb\\btlweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|solutionrelative:btlweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|d:\\phamhongminh\\btlweb_nhom12\\btlweb\\btlweb\\models\\loaiphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B99A8A0-46C4-4FF6-97BE-AD8627BB1853}|BTLWEB\\BTLWEB.csproj|solutionrelative:btlweb\\models\\loaiphim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ve.cs",
+              "DocumentMoniker": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Models\\Ve.cs",
+              "RelativeDocumentMoniker": "BTLWEB\\Models\\Ve.cs",
+              "ToolTip": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Models\\Ve.cs",
+              "RelativeToolTip": "BTLWEB\\Models\\Ve.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T04:59:06.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ghe.cs",
+              "DocumentMoniker": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Models\\Ghe.cs",
+              "RelativeDocumentMoniker": "BTLWEB\\Models\\Ghe.cs",
+              "ToolTip": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Models\\Ghe.cs",
+              "RelativeToolTip": "BTLWEB\\Models\\Ghe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T04:58:56.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Phim.cs",
+              "DocumentMoniker": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Models\\Phim.cs",
+              "RelativeDocumentMoniker": "BTLWEB\\Models\\Phim.cs",
+              "ToolTip": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Models\\Phim.cs",
+              "RelativeToolTip": "BTLWEB\\Models\\Phim.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T04:56:17.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BinhLuan.cs",
+              "DocumentMoniker": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Models\\BinhLuan.cs",
+              "RelativeDocumentMoniker": "BTLWEB\\Models\\BinhLuan.cs",
+              "ToolTip": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Models\\BinhLuan.cs",
+              "RelativeToolTip": "BTLWEB\\Models\\BinhLuan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T04:56:07.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "BTLWEB\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "BTLWEB\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T04:24:57.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QlVe.cshtml",
+              "DocumentMoniker": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Views\\Ve\\QlVe.cshtml",
+              "RelativeDocumentMoniker": "BTLWEB\\Views\\Ve\\QlVe.cshtml",
+              "ToolTip": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Views\\Ve\\QlVe.cshtml",
+              "RelativeToolTip": "BTLWEB\\Views\\Ve\\QlVe.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-21T15:36:08.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PhimController.cs",
+              "DocumentMoniker": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Controllers\\PhimController.cs",
+              "RelativeDocumentMoniker": "BTLWEB\\Controllers\\PhimController.cs",
+              "ToolTip": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Controllers\\PhimController.cs",
+              "RelativeToolTip": "BTLWEB\\Controllers\\PhimController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAYwK0AAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-08T06:43:15.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViewHead.cshtml",
+              "DocumentMoniker": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Views\\Phim\\ViewHead.cshtml",
+              "RelativeDocumentMoniker": "BTLWEB\\Views\\Phim\\ViewHead.cshtml",
+              "ToolTip": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Views\\Phim\\ViewHead.cshtml",
+              "RelativeToolTip": "BTLWEB\\Views\\Phim\\ViewHead.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-10T10:30:23.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VeController.cs",
+              "DocumentMoniker": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Controllers\\VeController.cs",
+              "RelativeDocumentMoniker": "BTLWEB\\Controllers\\VeController.cs",
+              "ToolTip": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Controllers\\VeController.cs",
+              "RelativeToolTip": "BTLWEB\\Controllers\\VeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-21T15:35:37.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Program.cs",
+              "RelativeDocumentMoniker": "BTLWEB\\Program.cs",
+              "ToolTip": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Program.cs",
+              "RelativeToolTip": "BTLWEB\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-08T01:27:05.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoaiPhim.cs",
+              "DocumentMoniker": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Models\\LoaiPhim.cs",
+              "RelativeDocumentMoniker": "BTLWEB\\Models\\LoaiPhim.cs",
+              "ToolTip": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Models\\LoaiPhim.cs",
+              "RelativeToolTip": "BTLWEB\\Models\\LoaiPhim.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-07T14:43:12.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QlPhim.cshtml",
+              "DocumentMoniker": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Views\\Phim\\QlPhim.cshtml",
+              "RelativeDocumentMoniker": "BTLWEB\\Views\\Phim\\QlPhim.cshtml",
+              "ToolTip": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Views\\Phim\\QlPhim.cshtml",
+              "RelativeToolTip": "BTLWEB\\Views\\Phim\\QlPhim.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAA8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-02T12:38:47.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateVe.cshtml",
+              "DocumentMoniker": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Views\\Ve\\CreateVe.cshtml",
+              "RelativeDocumentMoniker": "BTLWEB\\Views\\Ve\\CreateVe.cshtml",
+              "ToolTip": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\Views\\Ve\\CreateVe.cshtml",
+              "RelativeToolTip": "BTLWEB\\Views\\Ve\\CreateVe.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-15T00:33:22.514Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

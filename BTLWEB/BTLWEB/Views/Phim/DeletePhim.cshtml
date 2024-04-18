@@ -1,0 +1,36 @@
+﻿@model BTLWEB.Models.Phim
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<body style="padding: 300px">
+    <div class="container">
+        <div class="row">
+            <div class="col-8 text-capitalize"><h1>Xác nhận xóa</h1></div>
+            <div class="col-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <h3>Bạn có chắc chắn muốn xóa phim này không?</h3>
+                <br />
+                <div>
+                    <h4>Tên phim: @Model.TenPhim</h4>
+                    <br />
+                    <br />
+                    <div>
+                        <form asp-controller="Phim" asp-action="DeletePhim" asp-route-id="@Model.Id" method="post">
+                            <input type="submit" value="Xóa" class="btn btn-danger btn-outline-dark" />
+                            <br />
+                            <br />
+                            <a asp-action="QlPhim">Quay lại danh sách</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+            </div>
+        </div>
+    </div>
+</body>

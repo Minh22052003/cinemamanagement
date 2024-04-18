@@ -1,0 +1,153 @@
+﻿html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    text-align: center;
+    padding: 50px 20px;
+}
+img {
+    width: 50px;
+    height: auto;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 0 20px;
+    border: none;
+    border-radius: 5px;
+}
+footer {
+    background: rgb(238, 237, 237);
+    margin-top: 100px;
+    max-width: 100%;
+    height: 200px;
+    padding: 90px 140px;
+    display: flex;
+    font-family: sans-serif;
+    height:auto
+}
+
+footer > * {
+    padding-right: 100px;
+}
+
+.footer-1 {
+    margin-top: 20px;
+}
+
+.footer-1 img {
+    width: 250px;
+}
+
+.footer-1 h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer-2 h4 {
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-2-input {
+    background-color: #fff;
+    border: 1px solid rgb(187, 187, 187);
+    max-width: max-content;
+    padding: 5px 10px;
+}
+
+.footer-2-input input {
+    width: 344px;
+    all: unset;
+}
+
+.footer-2-input input::placeholder {
+    color: gray;
+    font-size: 14px;
+}
+
+.footer-2-input svg {
+    align-items: center;
+    fill: gray;
+}
+
+.footer-2-icon {
+    display: flex;
+    align-items: center;
+}
+
+.footer-2-icon > * {
+    margin-right: 20px;
+}
+
+.footer-2-icon svg {
+    fill: rgb(84, 84, 199);
+    width: 30px;
+    height: 30px;
+}
+
+.footer-2-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-3-content {
+    display: flex;
+    align-items: center;
+}
+
+.footer-3-content svg {
+    width: 20px;
+    padding-right: 10px;
+}
+
+.footer-3-content h4 {
+    font-size: 14px;
+    font-weight: 400;
+}
+

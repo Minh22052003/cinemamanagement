@@ -1,0 +1,36 @@
+﻿@model BTLWEB.Models.Ve
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<body style="padding: 300px">
+    <div class="container">
+        <div class="row">
+            <div class="col-8 text-capitalize"><h1>Xác nhận xóa</h1></div>
+            <div class="col-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <h3>Bạn có chắc chắn muốn xóa phim này không?</h3>
+                <br />
+                <div>
+                    <h4>Id Vé: @Model.Id</h4>
+                    <h4>Ngày đặt: @Model.NgayDat</h4>
+                    <br />
+                    <br />
+                    <div>
+                        <form asp-controller="Ve" asp-action="DeleteVeConfirmed" asp-route-id="@Model.Id" method="post">
+                            <input type="submit" value="Xóa" class="btn btn-danger btn-outline-dark" />
+                            <br />
+                            <br />
+                            <a asp-action="QlVe">Quay lại danh sách</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+            </div>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,441 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BTLWEB.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BTLWEB.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\css\\StyleRapChieuPhim.css",
+      "PackagePath": "staticwebassets\\css\\StyleRapChieuPhim.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\css\\news.css",
+      "PackagePath": "staticwebassets\\css\\news.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\css\\styledatphim.css",
+      "PackagePath": "staticwebassets\\css\\styledatphim.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\css\\stylephim.css",
+      "PackagePath": "staticwebassets\\css\\stylephim.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\909511-middle.png",
+      "PackagePath": "staticwebassets\\images\\909511-middle.png"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\Image\\2205.png",
+      "PackagePath": "staticwebassets\\images\\Image\\2205.png"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\Image\\Alantic.jpg",
+      "PackagePath": "staticwebassets\\images\\Image\\Alantic.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\Image\\LienMinhCL2021.jpg",
+      "PackagePath": "staticwebassets\\images\\Image\\LienMinhCL2021.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\Image\\OnePiece1_RED.jpg",
+      "PackagePath": "staticwebassets\\images\\Image\\OnePiece1_RED.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\Image\\Tiachop.jpg",
+      "PackagePath": "staticwebassets\\images\\Image\\Tiachop.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\Image\\Tiadchop.jpg",
+      "PackagePath": "staticwebassets\\images\\Image\\Tiadchop.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\Image\\bietDoiCamTu.jpg",
+      "PackagePath": "staticwebassets\\images\\Image\\bietDoiCamTu.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\Image\\bietDoiCamTu1.jpg",
+      "PackagePath": "staticwebassets\\images\\Image\\bietDoiCamTu1.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\Image\\danOngThe.jpg",
+      "PackagePath": "staticwebassets\\images\\Image\\danOngThe.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\Image\\huyyenThoaiRD.jpg",
+      "PackagePath": "staticwebassets\\images\\Image\\huyyenThoaiRD.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\Image\\juccuyu.jpg",
+      "PackagePath": "staticwebassets\\images\\Image\\juccuyu.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\Image\\kisibongdem.jpg",
+      "PackagePath": "staticwebassets\\images\\Image\\kisibongdem.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\Image\\lego.jpg",
+      "PackagePath": "staticwebassets\\images\\Image\\lego.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\Image\\nguoiGioiXh.jpg",
+      "PackagePath": "staticwebassets\\images\\Image\\nguoiGioiXh.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\Image\\p.jpg",
+      "PackagePath": "staticwebassets\\images\\Image\\p.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\Image\\sieuanhPhahoa.jpg",
+      "PackagePath": "staticwebassets\\images\\Image\\sieuanhPhahoa.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\Movies.png",
+      "PackagePath": "staticwebassets\\images\\Movies.png"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\New_Images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\New_Images\\1.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\New_Images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\New_Images\\2.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\New_Images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\New_Images\\3.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\New_Images\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\New_Images\\4.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\New_Images\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\New_Images\\5.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\New_Images\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\New_Images\\6.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\New_Images\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\New_Images\\7.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\OnePiece1_RED.jpg",
+      "PackagePath": "staticwebassets\\images\\OnePiece1_RED.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\The_Nun.jpg",
+      "PackagePath": "staticwebassets\\images\\The_Nun.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\Venom.jpg",
+      "PackagePath": "staticwebassets\\images\\Venom.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\event.png",
+      "PackagePath": "staticwebassets\\images\\event.png"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\h3_event.gif",
+      "PackagePath": "staticwebassets\\images\\h3_event.gif"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\instagram_icon.webp",
+      "PackagePath": "staticwebassets\\images\\instagram_icon.webp"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logo.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\logo_text.png",
+      "PackagePath": "staticwebassets\\images\\logo_text.png"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\mat_biec.jpg",
+      "PackagePath": "staticwebassets\\images\\mat_biec.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\movi.png",
+      "PackagePath": "staticwebassets\\images\\movi.png"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\navnen.jpg",
+      "PackagePath": "staticwebassets\\images\\navnen.jpg"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\images\\twitter-icon.png",
+      "PackagePath": "staticwebassets\\images\\twitter-icon.png"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\PhamHongMinh\\BTLWEB_Nhom12\\BTLWEB\\BTLWEB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BTLWEB.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BTLWEB.props",
+      "PackagePath": "build\\BTLWEB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BTLWEB.props",
+      "PackagePath": "buildMultiTargeting\\BTLWEB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BTLWEB.props",
+      "PackagePath": "buildTransitive\\BTLWEB.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

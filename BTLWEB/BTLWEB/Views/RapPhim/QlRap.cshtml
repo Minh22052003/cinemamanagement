@@ -1,0 +1,93 @@
+﻿@model IEnumerable<BTLWEB.Models.RapPhim>
+@{
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="row page-titles mx-0">
+            <div class="col-sm-6 p-md-0">
+                <div class="welcome-text">
+                    <h4>Chào mừng bạn đến với hệ thống quản lí rạp chiếu phim</h4>
+                    <span class="ml-1">RẠP CHIẾU PHIM</span>
+                </div>
+            </div>
+            <div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="">Rạp Chiếu Phim</a></li>
+                    <li class="breadcrumb-item active"><a href="">Quản Lý Rạp</a></li>
+                </ol>
+            </div>
+            <div class="row">
+                <nav class="navbar navbar-light" style="float:right">
+                    <form class="form-inline" method="get" action="@Url.Action("QlRap")">
+                        <input type="hidden" name="page" value="@ViewBag.SoTrang" />
+                        <input style="margin-right: 10px" type="text" name="search" class="form-control mr-sm-2" placeholder="Tìm kiếm..." />
+                        <button type="submit" class="btn btn-outline-success">Tìm kiếm</button>
+                    </form>
+                </nav>
+            </div>
+        </div>
+
+        <!-- row -->
+
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="btn btn-primary" asp-action="CreateRapPhim">Thêm Rạp Chiếu Phim </a>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table id="datatables-rap" class="display table table-striped" style="min-width: 845px; color: black">
+                                <thead>
+                                    <tr>
+                                        <th>Tên Rạp Chiếu</th>
+                                        <th>Tổng Số Phòng</th>
+                                        <th>Thành Phố</th>
+                                        <th>Quận Huyện</th>
+                                        <th>Phường Xã</th>
+                                        <th>Khung Giờ </th>
+                                        <th>Chức Năng</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var rapPhim in Model)
+                                    {
+                                        <tr>
+                                            <td>@rapPhim.TenRapChieu</td>
+                                            <td>@rapPhim.TongSoPhong</td>
+                                            <td>@rapPhim.ThanhPho</td>
+                                            <td>@rapPhim.QuanHuyen</td>
+                                            <td>@rapPhim.PhuongXa</td>
+                                            <td>@rapPhim.KhungGio</td>
+                                            <td>
+                                                <a class="btn btn-warning btn-outline-secondary" asp-action="EditRapPhim" asp-route-id="@rapPhim.Id">Edit</a>
+                                                <br />
+                                                <h1></h1>
+                                                <a class="btn btn-danger btn-outline-secondary" asp-action="DeleteRapPhim" asp-route-id="@rapPhim.Id">Delete</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                            <div class="dataTables_paginate paging_simple_numbers" id="dataTables-phim_paginate">
+                                @for(int i = 1; i <= ViewBag.TongTrang; i++)
+                                {
+                                    if (i == ViewBag.SoTrang)
+                                    {
+                                        <a class="paginate_button current">@i</a>
+                                    }
+                                    else
+                                    {
+                                        <a class="paginate_button" href="@Url.Action("QlRap",new{page=i,search=ViewBag.Search})">@i</a>
+                                    }
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

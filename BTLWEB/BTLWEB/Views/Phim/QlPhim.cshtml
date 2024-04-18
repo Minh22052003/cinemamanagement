@@ -1,0 +1,142 @@
+﻿@model IEnumerable<BTLWEB.Models.Phim>
+
+@{
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+@{
+    var totalPages = ViewBag.TotalPages;
+    var currentPage = ViewBag.CurrentPage;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Danh sách phim</title>
+</head>
+<body>
+    <div class="content-body">
+        <div class="container-fluid">
+            <div class="row page-titles mx-0">
+                <div class="col-sm-6 p-md-0">
+                    <div class="welcome-text">
+                        <h4>Chào mừng bạn đến với hệ thống quản lí phim</h4>
+                        <span class="ml-1">PHIM</span>
+                    </div>
+                    
+                </div>
+                <div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="">Phim</a></li>
+                        <li class="breadcrumb-item active"><a href="">QUẢN LÝ PHIM ẢNH</a></li>
+                    </ol>
+                </div>
+                <div class="row">
+                    <nav class="navbar navbar-light" style="float:right">
+                        <form class="form-inline" method="get" action="@Url.Action("QlPhim")">
+                            <input type="hidden" name="mid" value="@ViewBag.MID" />
+                            <input type="hidden" name="page" value="@ViewBag.CurrentPage" />
+                            <input style="margin-right: 10px" type="text" name="searchString" class="form-control mr-sm-2" placeholder="Tìm kiếm..." />
+                            <button type="submit" class="btn btn-outline-success">Tìm kiếm</button>
+                        </form>
+                    </nav>
+                </div>
+
+            </div>
+            <!-- row -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-2">
+                                    <a class="btn btn-primary" asp-action="CreatePhim">Thêm Phim</a>
+                                </div>
+                                <div class="col-10">
+                                    @await Component.InvokeAsync("LoaiPhim")
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table id="dataTables-phim" class="display table table-striped" style="color:black;">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Tên Phim</th>
+                                            <th>Ảnh</th>
+                                            <th>Mô tả</th>
+                                            <th>Loai Phim</th>
+                                            <th>Thời Lượng</th>
+                                            <th>Ngày Công Chiếu</th>
+                                            <th>Ngày kết Thúc</th>
+                                            <th>Diễn Viên</th>
+                                            <th>Đạo Diễn</th>
+                                            <th>Trạng Thái</th>
+                                            <th>Năm phát hành</th>
+                                            <th>Chất lượng</th>
+                                            <th>Chức năng</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var phim in Model)
+                                        {
+                                            <tr>
+                                                <td>@phim.Id</td>
+                                                <td>@phim.TenPhim</td>
+                                                <td><img src="~/images/Image/@phim.AnhPhim" alt="" style="height:200px;width:150px"></td>
+                                                <td>@phim.MoTa</td>
+                                                <td>@phim.LoaiPhim.TenLoai</td>
+                                                <td>@phim.ThoiLuong</td>
+                                                <td>@phim.NgayCongChieu</td>
+                                                <td>@phim.NgayKetThuc</td>
+                                                <td>@phim.DienVien</td>
+                                                <td>@phim.DaoDien</td>
+                                                <td>@(phim.TinhTrang ? "Đang hoạt động" : "Ngừng hoạt động")</td>
+                                                <td>@phim.NamPhatHanh</td>
+                                                <td>@phim.ChatLuong</td>
+                                                <td>
+                                                    <a class="btn btn-warning btn-outline-secondary" asp-action="EditPhim" asp-route-id="@phim.Id">Edit</a>
+                                                    <h1></h1>
+                                                    <a class="btn btn-danger btn-outline-secondary" asp-action="DeletePhim" asp-route-id="@phim.Id">Delete</a>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                                <div class="dataTables_paginate paging_simple_numbers" id="dataTables-phim_paginate">
+                                    @if (ViewBag.CurrentPage > 1)
+                                    {
+                                        <a class="paginate_button previous"
+                                           href="@Url.Action("QlPhim", new { mid = ViewBag.MID, page = ViewBag.CurrentPage - 1, searchString =ViewBag.SearchString })">Previous</a>
+                                    }
+                                    <span>
+                                        @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                                        {
+                                            if (i == ViewBag.CurrentPage)
+                                            {
+                                                <a class="paginate_button current" >@i</a>
+                                            }
+                                            else
+                                            {
+                                                <a class="paginate_button"
+                                                   href="@Url.Action("QlPhim", new { mid = ViewBag.MID, page = i, searchString =ViewBag.SearchString })">@i</a>
+                                            }
+                                        }
+                                    </span> 
+                                    @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+                                    {
+                                        <a class="paginate_button next"
+                                           href="@Url.Action("QlPhim", new { mid = ViewBag.MID, page = ViewBag.CurrentPage + 1, searchString =ViewBag.SearchString })">Next</a>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

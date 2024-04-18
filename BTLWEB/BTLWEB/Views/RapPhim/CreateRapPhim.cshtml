@@ -1,0 +1,49 @@
+﻿@model BTLWEB.Models.RapPhim
+
+@{
+    ViewData["Title"] = "CreateRapPhim";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<div class="card" style="padding-left: 310px; padding-right: 20px; padding-top: 20px">
+    <div class="row">
+        <div class="col-2">
+            <h1>Create</h1>
+        </div>
+        <div class="col-10">
+        </div>
+    </div>
+    <form asp-action="CreateRapPhim" method="post">
+        <div class="form-group row">
+            <label class="col-2">Tên Rạp</label>
+            <input asp-for="TenRapChieu" class="form-control col-10" />
+            <span asp-validation-for="TenRapChieu" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label class="col-2">Tổng Số Phòng</label>
+            <input asp-for="TongSoPhong" class="form-control col-10" />
+            <span asp-validation-for="TongSoPhong" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label class="col-2">Thành Phố</label>
+            <input asp-for="ThanhPho" class="form-control col-10" />
+            <span asp-validation-for="ThanhPho" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label class="col-2">Quận Huyện</label>
+            <input asp-for="QuanHuyen" class="form-control col-10" />
+            <span asp-validation-for="QuanHuyen" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label class="col-2">Phường Xã</label>
+            <input asp-for="PhuongXa" class="form-control col-10" />
+            <span asp-validation-for="PhuongXa" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <label class="col-2">Khung Giờ</label>
+            <input asp-for="KhungGio" class="form-control col-10" />
+            <span asp-validation-for="KhungGio" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+</div>

@@ -1,0 +1,73 @@
+﻿@model IEnumerable<BTLWEB.Models.TaiKhoan>
+@{
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="row page-titles mx-0">
+            <div class="col-sm-6 p-md-0">
+                <div class="welcome-text">
+                    <h4>Chào mừng bạn đến với hệ thống quản lí thông tin</h4>
+                    <span class="ml-1">KHÁCH HÀNG</span>
+                </div>
+            </div>
+            <div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="">Quản lí thông tin</a></li>
+                    <li class="breadcrumb-item active"><a href="">Khách hàng</a></li>
+                </ol>
+            </div>
+        </div>
+        <!-- row -->
+
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Danh sách tài khoản</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table id="datatables-nhanvien" class="display table table-striped" style="min-width: 845px; color: black">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Tên đăng nhập</th>
+                                        <th>Mật khẩu</th>
+                                        <th>Ngày đăng ký</th>
+                                        <th>Tình trạng</th>
+                                        <th>Phân quyền</th>
+                                        <th>Chức năng</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@item.Id</td>
+                                            <td>@item.TenDangNhap</td>
+                                            <td>@item.MatKhau</td>
+                                            <td>@item.NgayDangKy</td>
+                                            <td>@(item.TinhTrang ? "Active" : "Inactive")</td>
+                                            <td>@item.PhanQuyen</td>
+                                            <td>
+                                                <a class="btn btn-warning btn-outline-secondary" asp-action="EditTaiKhoan" asp-route-id="@item.Id">Edit</a>
+                                                <br />
+                                                <h1></h1>
+                                                <a class="btn btn-danger btn-outline-secondary" asp-action="DeleteTaiKhoan" asp-route-id="@item.Id">Delete</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
